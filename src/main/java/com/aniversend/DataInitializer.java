@@ -8,25 +8,25 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
-import com.aniversend.models.Employee;
-import com.aniversend.repositories.EmployeeRepository;
+import com.aniversend.models.People;
+import com.aniversend.repositories.PeopleRepository;
 
 @Component
 public class DataInitializer implements CommandLineRunner {
 
-	private final EmployeeRepository employeeRepository;
+	private final PeopleRepository employeeRepository;
 
 	@Autowired
-	public DataInitializer(EmployeeRepository employeeRepository) {
+	public DataInitializer(PeopleRepository employeeRepository) {
 		this.employeeRepository = employeeRepository;
 	}
 
 	@Override
 	public void run(String... args) {
 		Date today = new Date();
-		List<Employee> employees = new ArrayList<>();
+		List<People> employees = new ArrayList<>();
 
-		Employee employee1 = new Employee();
+		People employee1 = new People();
 		employee1.setName("Traduzidor");
 		employee1.setBirthday(today);
 		employee1.setEmail("traduzidor@gmail.com");
@@ -44,7 +44,7 @@ public class DataInitializer implements CommandLineRunner {
 //		employee3.setEmail("contato@lewoaragao.com.br");
 //		employees.add(employee3);
 
-		for (Employee employee : employees) {
+		for (People employee : employees) {
 			if (employee != null && employeeRepository.findByEmail(employee.getEmail()) == null) {
 				employeeRepository.save(employee);
 			}
