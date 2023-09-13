@@ -27,16 +27,22 @@ public class DataInitializer implements CommandLineRunner {
 		List<Employee> employees = new ArrayList<>();
 
 		Employee employee1 = new Employee();
-		employee1.setName("Funcionário 1");
+		employee1.setName("Traduzidor");
 		employee1.setBirthday(today);
-		employee1.setEmail("teste@lewoaragao.com.br");
+		employee1.setEmail("traduzidor@gmail.com");
 		employees.add(employee1);
 
-		Employee employee2 = new Employee();
-		employee2.setName("Funcionário 2");
-		employee2.setBirthday(today);
-		employee2.setEmail("contato@lewoaragao.com.br");
-		employees.add(employee2);
+//		Employee employee2 = new Employee();
+//		employee2.setName("Adota Pet Org");
+//		employee2.setBirthday(today);
+//		employee2.setEmail("adotapetorg@gmail.com");
+//		employees.add(employee2);
+//
+//		Employee employee3 = new Employee();
+//		employee3.setName("Lewoaragao");
+//		employee3.setBirthday(today);
+//		employee3.setEmail("contato@lewoaragao.com.br");
+//		employees.add(employee3);
 
 		for (Employee employee : employees) {
 			if (employee != null && employeeRepository.findByEmail(employee.getEmail()) == null) {
