@@ -6,7 +6,7 @@
 ![GitHub (Pre-)Release Date](https://img.shields.io/github/release-date-pre/lewoaragao/AniverSend?color=blue)
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg?color=blue)](code_of_conduct.md)
 
-# AniverSend
+# 🥳 AniverSend
 
 ![Static Badge](https://img.shields.io/badge/English-red?style=for-the-badge)
 > Is an open source project that automates the service for sending birthday wishes. Every day, it checks people with their current birthday and sends them personalized congratulatory emails.
