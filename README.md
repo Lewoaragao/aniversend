@@ -2,7 +2,7 @@
 ![GitHub tag (with filter)](https://img.shields.io/github/v/tag/lewoaragao/AniverSend?color=blue)
 ![GitHub repo size](https://img.shields.io/github/repo-size/lewoaragao/AniverSend?color=blue)
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/lewoaragao/AniverSend?color=blue)
-![GitHub release (by tag)](https://img.shields.io/github/downloads/lewoaragao/AniverSend/v1.0.0/total?color=blue)
+![GitHub release (by tag)](https://img.shields.io/github/downloads/lewoaragao/AniverSend/v1.0.0-alfa/total?color=blue)
 ![GitHub (Pre-)Release Date](https://img.shields.io/github/release-date-pre/lewoaragao/AniverSend?color=blue)
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg?color=blue)](code_of_conduct.md)
 
