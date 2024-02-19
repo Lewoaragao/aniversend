@@ -21,7 +21,7 @@ public class EmailService {
         try {
             helper.setTo(recipientEmail);
             helper.setSubject(subject);
-            helper.setText(message, true); // true indica que o conteúdo é HTML (pode ser falso para texto simples)
+            helper.setText(message, true); // true indicates that the content is HTML (may be false for plain text)
 
             javaMailSender.send(mimeMessage);
         } catch (MessagingException e) {
